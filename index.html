@@ -20,15 +20,80 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
+  <nav id="navbar">
+    <header>Build a Technical Documentation Page</header>
+    <ol>
+      <a href="#Objective" class="nav-link">
+        <li>Objective</li>
+      </a>
+      <a href="#User_Story_#1" class="nav-link">
+        <li>User Story #1</li>
+      </a>
+      <a href="#User_Story_#2" class="nav-link">
+        <li>User Story #2</li>
+      </a>
+      <a href="#User_Story_#3" class="nav-link">
+        <li>User Story #3</li>
+      </a>
+      <a href="#User_Story_#4" class="nav-link">
+        <li>User Story #4</li>
+      </a>
+    </ol>
+  </nav>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <main id="main-doc">
+    <section class="main-section" id="Objective">
+      <header>Objective</header>
+      <p>Build a CodePen.io app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/NdrKKL" target="_blank" rel="noopener noreferrer">https://codepen.io/freeCodeCamp/full/NdrKKL</a>.</p>
+      <p>Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.</p>
+      <p>You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what
+        the lessons have covered so far and you should get some practice with plain CSS.</p>
+      <p>You can use Bootstrap or SASS if you choose.</p>
+      <p>Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this
+        project, and using them is at your own risk.</p>
+      <p>Other projects will give you a chance to work with different technology stacks like React.</p>
+      <p>We will accept and try to fix all issue reports that use the suggested technology stack for this project.</p>
+      <p>Happy coding!</p>
+    </section>
+    <section class="main-section" id="User_Story_#1">
+      <header>User Story #1</header>
+      <p>I can see a main element with a corresponding <code>id="main-doc"</code>, which contains the page's main
+        content (technical documentation).</p>
+    </section>
+    <section class="main-section" id="User_Story_#2">
+      <header>User Story #2</header>
+      <p>Within the <code>#main-doc</code> element, I can see several section elements, each with a class of
+        main-section. There should be a minimum of 5.</p>
+    </section>
+    <section class="main-section" id="User_Story_#3">
+      <header>User Story #3</header>
+      <p>The first element within each <code>.main-section</code> should be a header element which contains text that
+        describes the topic of that section.</p>
+    </section>
+    <section class="main-section" id="User_Story_#4">
+      <header>User Story #4</header>
+      <p>Each <code>section</code> element with the class of <code>.main-section</code> should also have an id that
+        corresponds with the text of each <code>header</code> contained within it. Any spaces should be replaced with
+        underscores (e.g. The <code>section</code> that contains the header "Javascript and Java" should have a
+        corresponding <code>id="Javascript_and_Java"</code>).</p>
+      <ul>
+        <li><b>User Story #5:</b> The .main-section elements should contain at least 10 p elements total (not each).</li>
+        <li><b>User Story #6:</b> The .main-section elements should contain at least 5 code elements total (not each).</li>
+        <li><b>User Story #7:</b> The .main-section elements should contain at least 5 li items total (not each).</li>
+        <li><b>User Story #8:</b> I can see a nav element with a corresponding id="navbar".</li>
+        <li><b>User Story #9:</b> The navbar element should contain one header element which contains text that
+          describes the topic of the technical documentation.</li>
+      </ul>
+    </section>
+  </main>
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
